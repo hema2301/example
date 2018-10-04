@@ -12,9 +12,9 @@ public class Holds {
 	
 	//private String name;
 	@StartNode
-	UserNode user;
+	private UserNode user;
 	@EndNode
-	AcademicNode academicNode;
+	private AcademicNode academicNode;
 //	public String getName() {
 //		return name;
 //	}

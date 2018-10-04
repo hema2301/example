@@ -12,10 +12,10 @@ public class LivesIn {
 	
 	//private String name;
 	@StartNode
-	UserNode user;
+	private UserNode user;
 	
 	@EndNode
-	CityNode city;
+	private CityNode city;
 //
 //	public String getName() {
 //		return name;

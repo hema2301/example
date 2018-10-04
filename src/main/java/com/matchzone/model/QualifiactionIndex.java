@@ -30,15 +30,19 @@ public class QualifiactionIndex {
 		return profileId;
 	}
 	public QualifiactionIndex(String profileId, String education, String course, String specialisation,
-			String universityInstitute, Integer passingYear, String gradingSystem, String higherSecondary,
-			Integer highDuration, String highLocation, String seniorSecondary, Integer senDuration,
-			String senLocation) {
-		super();
+			String universityInstitute) {
+		
 		this.profileId = profileId;
 		this.education = education;
 		this.course = course;
 		this.specialisation = specialisation;
 		this.universityInstitute = universityInstitute;
+	}
+	
+	public QualifiactionIndex(Integer passingYear, String gradingSystem, String higherSecondary,
+			Integer highDuration, String highLocation, String seniorSecondary, Integer senDuration,
+			String senLocation) {
+		super();
 		this.passingYear = passingYear;
 		this.gradingSystem = gradingSystem;
 		this.higherSecondary = higherSecondary;

@@ -11,9 +11,9 @@ import com.matchzone.node.UserNode;
 public class CertifiedIn {
 	//private String name;
 	@StartNode
-	UserNode user;
+	private UserNode user;
 	@EndNode
-	CertificationNode certi;
+	private CertificationNode certi;
 	
 	public UserNode getUser() {
 		return user;

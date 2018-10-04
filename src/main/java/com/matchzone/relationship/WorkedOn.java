@@ -11,9 +11,9 @@ import com.matchzone.node.UserNode;
 public class WorkedOn {
 //	private String name;
 	@StartNode
-	UserNode user;
+	private UserNode user;
 	@EndNode
-	ProjectNode projectNode;
+	private ProjectNode projectNode;
 	
 	public UserNode getUser() {
 		return user;

@@ -13,9 +13,9 @@ public class Knows {
 
 	//private String name;
 	@StartNode
-	UserNode user;
+	private UserNode user;
 	@EndNode
-	SkillNode skill;
+	private SkillNode skill;
 	
 //	public String getName() {
 //		return name;
